@@ -11,13 +11,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-          <nav style={{ padding: "5px 0" }}>
+          {/* <nav style={{ padding: "5px 0" }}>
             <Link href="/">Frontpage</Link>
             {` `}
             <Link href="/admin-dashboard">Admin dashboard</Link>
             {` `}
             <Link href="/profile-page">Profile page</Link>
-          </nav>
+          </nav> */}
           {children}
         </Providers>
       </body>
